@@ -1,0 +1,4 @@
+<p>add-artist works!</p>
+<input type="text" [(ngModel)]="artistName">
+<button (click)="addArtist()">add artist</button>
+<p *ngFor="let artist of artists">{{artist }}</p>
